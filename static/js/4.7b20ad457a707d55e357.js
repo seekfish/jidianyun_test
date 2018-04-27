@@ -1,0 +1,2 @@
+webpackJsonp([4],{FmoU:function(e,t){},eJPG:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={render:function(){var e=this.$createElement;return(this._self._c||e)("div",[this._v("\n  "+this._s(this.msg)+"\n")])},staticRenderFns:[]};var s=n("Z0/y")({name:"Prodact",data:function(){return{msg:"prodact.vue.vue"}}},r,!1,function(e){n("FmoU")},"data-v-232b0b0b",null);t.default=s.exports}});
+//# sourceMappingURL=4.7b20ad457a707d55e357.js.map

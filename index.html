@@ -1,0 +1,16 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>project</title><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css><link href=./static/css/app.82195a53aace946b5cc6222a6748958e.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.a2827cbd1f17ef056121.js></script><script type=text/javascript src=./static/js/vendor.e504364c0875c74a6c85.js></script><script type=text/javascript src=./static/js/app.a357637ebfcf328dcbc5.js></script></body><script>(function (doc, win) {
+            var docEl = doc.documentElement,
+           // orientationchange 事件 用来监听手机屏幕的反转
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+              var clientWidth = docEl.clientWidth;//(window.innerWidth);UC 或者QQ 安卓4.0 以下原生浏览器下面是没有
+              if (!clientWidth) return;
+              
+               docEl.style.fontSize = 100 * (clientWidth / 375) + 'px';
+            };
+
+          if (!doc.addEventListener) return;
+          win.addEventListener(resizeEvt, recalc, false);
+          //DOMContentLoaded dom 加载完成，onload 有什么区别 dom css js OK 才执行的
+          doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);</script><script src=https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.js></script></html>
